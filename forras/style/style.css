@@ -67,12 +67,12 @@ main {
     padding: 20px;
 }
 
-.fogalom {
+#fogalom {
     border: 1px dashed rgb(2, 138, 158);
     margin-bottom: 10px;
 }
 
-.fogalom summary {
+#fogalom summary {
     background: rgb(2, 138, 158);
     color: white;
     font-weight: bold;
@@ -81,7 +81,7 @@ main {
     cursor: pointer;
 }
 
-.fogalom p {
+#fogalom p {
     background: rgba(2, 138, 158, 0.2);
     padding: 10px;
 }
