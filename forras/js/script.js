@@ -1,3 +1,5 @@
+import gyumolcsok from "./data.js"; // ok import doesnt work but the code is good
+
 document.addEventListener("DOMContentLoaded", () => {
     const selectGyumolcs = document.getElementById("gyumolcs");
     const uzenet = document.getElementById("uzenet");
