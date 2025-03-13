@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+}
+
+header {
+    position: relative;
+    height: 600px;
+    background: url('../img/banner_fruits.png') no-repeat center bottom / cover;
+}
+
+header h1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    background-color: rgba(2, 138, 158, 0.25);
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: small-caps;
+    text-shadow: 3px 3px 5px black;
+    border: 10px double white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    background: rgb(2, 138, 158);
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding: 20px;
+}
+
+.fogalom {
+    border: 1px dashed rgb(2, 138, 158);
+    margin-bottom: 10px;
+}
+
+.fogalom summary {
+    background: rgb(2, 138, 158);
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.fogalom p {
+    background: rgba(2, 138, 158, 0.2);
+    padding: 10px;
+}
+
+table {
+    width: 75%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table th {
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+table tr:nth-child(odd) {
+    background: #f2f2f2;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+}
+
+form select,
+form input,
+form button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 3px solid;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+form select {
+    background: white;
+    color: black;
+}
+
+form input {
+    border-color: black white;
+}
+
+button#szamit {
+    background: rgb(73, 126, 23);
+    border-color: white rgb(73, 126, 23);
+}
+
+button#visszaallit {
+    background: gray;
+    border-color: white gray;
+}
+
+.kategoria {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 15px;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.zsir { background: rgb(73, 126, 23); border-color: rgb(73, 126, 23); }
+.rost { background: rgb(31, 83, 143); border-color: rgb(31, 83, 143); }
+.kaloria { background: rgb(31, 83, 143); border-color: rgb(31, 83, 143); }
+.feherje { background: rgb(151, 23, 23); border-color: rgb(151, 23, 23); }
+.szenhidrat { background: rgb(151, 23, 23); border-color: rgb(151, 23, 23); }
